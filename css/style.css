@@ -1,6 +1,10 @@
 @import url('normalize.css');
-@import url('header.css');
-@import url('__box.css');
+@import url('header/header.css');
+@import url('header/__box.css');
+
+:root {
+    --font-family: "Poppins", sans-serif;
+}
 
 * {
     margin: 0;
