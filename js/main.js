@@ -1,24 +1,24 @@
-import '../css/style.css'
-import javascriptLogo from '../javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import '../css/style.css';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
 
-setupCounter(document.querySelector('#counter'))
+// document.addEventListener('mousemove', (e) => {
+//   const container = document.querySelector('.__container');
+//   const cv = document.querySelector('.__cv');
+//   const rect = container.getBoundingClientRect();
+//   const x = e.clientX - rect.left;
+//   const y = e.clientY - rect.top;
+//
+//   const centerX = rect.width / 2;
+//   const centerY = rect.height / 2;
+//
+//   const deltaX = (x - centerX) / centerX;
+//   const deltaY = (y - centerY) / centerY;
+//
+//   const maxAngle = 15;
+//
+//   const rotateY = deltaX * maxAngle;
+//   const rotateX = -deltaY * maxAngle;
+//
+//   cv.style.transform = `rotateY(${rotateY}deg) rotateX(${rotateX}deg)`;
+// });
+//
