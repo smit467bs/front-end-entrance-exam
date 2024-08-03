@@ -1,5 +1,9 @@
 @import "expirense.css";
+@import "toolsBox.css";
 
 .__center {
+    display: flex;
+    justify-content: space-between;
     margin-top: 20px;
 }
+
