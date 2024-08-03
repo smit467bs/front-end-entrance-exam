@@ -2,6 +2,11 @@
 @import url('header/header.css');
 @import url('header/__box.css');
 @import url('center/center.css');
+@import url('footer/footer.css');
+
+.__cv{
+    margin-top: 100px;
+}
 
 :root {
     --font-family: "Poppins", sans-serif;
