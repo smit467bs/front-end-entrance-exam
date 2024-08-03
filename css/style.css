@@ -1,6 +1,7 @@
 @import url('normalize.css');
 @import url('header/header.css');
 @import url('header/__box.css');
+@import url('center/center.css');
 
 :root {
     --font-family: "Poppins", sans-serif;

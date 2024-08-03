@@ -1,0 +1,85 @@
+
+.__expirense {
+    width: 411px;
+    height: 359px;
+}
+
+.__expirense h2 {
+    margin-bottom: 16px;
+}
+
+.__job_item {
+    border-radius: 10px;
+    background: #28d979;
+    width: 387px;
+    height: 76px;
+    padding: 8px;
+}
+
+.__topBar {
+    display: flex;
+    justify-content: space-between;
+    width: 371px;
+    height: 16px;
+}
+
+h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.__most_recent {
+    border-radius: 59px;
+    padding: 2px 0px;
+    width: 61px;
+    height: 16px;
+    background: rgba(126, 115, 18, 0.4);
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 155%;
+    text-align: center;
+    color: #ddf163;
+}
+
+h5 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+h6 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+    text-align: center;
+    color: #ebf9f2;
+}
+
+.__feature_content {
+    width: 239px;
+    height: 36px;
+}
+
+.__content_bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.__job_info {
+    width: 124px;
+    height: 25px;
+}
+
+.__feature_content h6 {
+    text-align: left;
+}
