@@ -10,12 +10,12 @@
     width: 76px;
     background: #fff;
     border-radius: 6px;
-    padding: 16px 4px;
+    padding: 6px 4px;
 }
 
 .__tool_name {
     position: relative;
-    top: -20px;
+    top: -10px;
     left: 17px;
     border-radius: 59px;
     padding: 2px 6px;
