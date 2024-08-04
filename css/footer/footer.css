@@ -1,6 +1,7 @@
 @import "education.css";
 @import "interest.css";
 @import "contactInfo.css";
+@import ".btn_section.css";
 
 .__foot {
     margin-top: 20px;
