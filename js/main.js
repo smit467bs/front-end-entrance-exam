@@ -3,6 +3,7 @@ import '../css/style.css';
 document.addEventListener('DOMContentLoaded', function() {
   const saveButton = document.getElementById('saveButton');
   const editableElements = document.querySelectorAll('.__editable');
+  const downloadButton = document.getElementById('downloadButton');
 
   function saveContent(element) {
     const id = element.getAttribute('data-id');
@@ -30,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
     element.addEventListener('blur', () => {
       saveContent(element);
     });
+  });
+  downloadButton.addEventListener('click', () => {
+    window.location.href = '/cv.pdf';
   });
 });
 
