@@ -1,5 +1,38 @@
 import '../css/style.css';
 
+document.addEventListener('DOMContentLoaded', function() {
+  const saveButton = document.getElementById('saveButton');
+  const editableElements = document.querySelectorAll('.__editable');
+
+  function saveContent(element) {
+    const id = element.getAttribute('data-id');
+    if (id) {
+      localStorage.setItem(id, element.innerHTML);
+    }
+  }
+
+  saveButton.addEventListener('click', () => {
+    editableElements.forEach(element => {
+      saveContent(element);
+    });
+    alert('Changes saved!');
+  });
+
+  editableElements.forEach(element => {
+    const id = element.getAttribute('data-id');
+    if (id) {
+      const savedContent = localStorage.getItem(id);
+      if (savedContent) {
+        element.innerHTML = savedContent;
+      }
+    }
+
+    element.addEventListener('blur', () => {
+      saveContent(element);
+    });
+  });
+});
+
 
 // document.addEventListener('mousemove', (e) => {
 //   const container = document.querySelector('.__container');

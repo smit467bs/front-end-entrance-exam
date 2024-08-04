@@ -57,10 +57,8 @@ body {
 .__editable:focus {
     outline: none;
     border-color: #333;
-    background-color: #f9f9f9;
 }
 
 .__editable:hover {
     border-color: #aaa;
-    background-color: #f0f0f0;
 }
