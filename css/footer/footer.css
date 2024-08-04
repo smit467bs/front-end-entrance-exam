@@ -1,5 +1,16 @@
 @import "education.css";
+@import "interest.css";
+@import "contactInfo.css";
 
 .__foot {
     margin-top: 20px;
+}
+
+.__foot {
+    display: flex;
+    flex-direction: row;
+}
+
+.__extraBox {
+    justify-content: space-between;
 }
